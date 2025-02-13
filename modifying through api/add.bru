@@ -1,0 +1,19 @@
+meta {
+  name: add
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3010/menu
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"jinwoo",
+    "description":"shadow monarch",
+    "price":10000
+  }
+}
